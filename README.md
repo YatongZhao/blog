@@ -12,6 +12,20 @@
 
 建立blog所需仓储~
 
+## STEP 2
+
+**2017年9月8日 23点43分**
+
+初始化网页格式
+
++ index.html
++ images
++ CSS
+  - base.css
+  - layout.css
++ JS
+  - main.js
+
 
 
 
