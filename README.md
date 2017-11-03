@@ -25,10 +25,3 @@
   - layout.css
 + JS
   - main.js
-
-
-
-
-
-
-
