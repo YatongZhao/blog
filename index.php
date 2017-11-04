@@ -15,12 +15,12 @@
             while ($row = mysqli_fetch_assoc($result)) :
         ?>
         <li>
-            <code>
+            <!-- <code> -->
             <?php
-                echo $row['class'];
+                echo "<code>{$row['class']}</code>";
                 show($row['id']);
             ?>
-            </code>
+            <!-- </code> -->
         </li>
         <?php
             endwhile;
@@ -39,9 +39,13 @@
         <title>zyt76</title>
         <link rel="stylesheet" href="./CSS/base.css">
         <link rel="stylesheet" href="./CSS/layout.css">
+        <script src="./JS/main.js"></script>
     </head>
     <body>
         <header>
+            <h1 class='logo'>
+                <code>z</code><code>y</code><code>t</code><code>7</code><code>6</code>
+            </h1>
         </header>
         <aside>
             <h1 class='logo'>
@@ -52,5 +56,25 @@
                 mysqli_close($connection);
             ?>
         </aside>
+        <div class="base_info">
+            <code>WELCOME TO ZYT76'S BLOG</code>
+            <code>==============================bio==============================</code>
+            <code>blogger: zyt76;</code>
+            <code>email: zyt768295828@163.com;</code>
+            <code>phone: 13167085630;</code>
+            <code></code>
+            <code></code>
+            <code></code>
+            <code></code>
+            <code></code>
+            <code></code>
+            <code></code>
+        </div>
+        <div class="main" id="main">
+
+        </div>
+        <footer>
+            
+        </footer>
 </body>
 </html>
