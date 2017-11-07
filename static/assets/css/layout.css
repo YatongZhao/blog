@@ -67,10 +67,12 @@ li {
 li li {
 	text-indent: 40px;
 }
-li>code {
+li a>code {
 	display: block;
 	height: 23px;
 	line-height: 23px;
+	width: 100%;
+	overflow: hidden;
 }
 ul li code:hover {
 	background-color: darkslategray;

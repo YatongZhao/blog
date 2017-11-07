@@ -2,12 +2,12 @@ window.onload = function () {
     var oAside = document.getElementsByTagName('aside')[0];
     var oHeader = document.getElementsByTagName('header')[0];
     var clientY = document.documentElement.clientHeight;
+    console.log(document.documentElement.clientHeight);
     var oMain = document.getElementById("main");
     var oBaseInfo = document.getElementById("base_info");
     var scrollTarget = clientY - (oBaseInfo.children.length + 1) * 23 - 34;
     var timer = null;
     oMain.style.marginTop = clientY + 'px';
-    // console.log(oMain.style.top);
     oAside.timer = null;
     window.onmousewheel = function (e) {
         e = e || event;
